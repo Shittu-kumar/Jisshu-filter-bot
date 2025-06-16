@@ -37,12 +37,10 @@ logging.basicConfig(
 logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
-
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
 JisshuBot.start()
 loop = asyncio.get_event_loop()
-
 
 pyrogram.utils.MIN_CHAT_ID = -999999999999
 pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
