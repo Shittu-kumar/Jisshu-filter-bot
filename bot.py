@@ -1,11 +1,30 @@
 import sys
 import glob
 import importlib
-from pathlib import Path
-from pyrogram import idle
 import logging
 import logging.config
-
+import pyrogram
+import pyrogram.utils
+import asyncio
+import pytz
+from pathlib import Path
+from pyrogram import idle
+from pyrogram import Client, __version__
+from pyrogram.raw.all import layer
+from database.ia_filterdb import Media
+from database.users_chats_db import db
+from info import *
+from utils import temp
+from typing import Union, Optional, AsyncGenerator
+from pyrogram import types
+from Script import script 
+from datetime import date, datetime 
+from aiohttp import web
+from plugins import web_server, check_expired_premium
+from pyrogram import idle
+from Jisshu.bot import JisshuBot
+from Jisshu.util.keepalive import ping_server
+from Jisshu.bot.clients import initialize_clients
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
@@ -19,32 +38,14 @@ logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
 
-from pyrogram import Client, __version__
-from pyrogram.raw.all import layer
-from database.ia_filterdb import Media
-from database.users_chats_db import db
-from info import *
-from utils import temp
-from typing import Union, Optional, AsyncGenerator
-from pyrogram import types
-from Script import script 
-from datetime import date, datetime 
-import pytz
-from aiohttp import web
-from plugins import web_server, check_expired_premium
-import pyrogram.utils
-import asyncio
-from pyrogram import idle
-from Jisshu.bot import JisshuBot
-from Jisshu.util.keepalive import ping_server
-from Jisshu.bot.clients import initialize_clients
-
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
 JisshuBot.start()
 loop = asyncio.get_event_loop()
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+
+pyrogram.utils.MIN_CHAT_ID = -999999999999
+pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
 async def Jisshu_start():
     print('\n')
