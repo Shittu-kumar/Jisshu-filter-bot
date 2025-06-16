@@ -1,4 +1,5 @@
 import logging
+import pyrogram
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, IS_VERIFY , START_IMG
 from imdb import Cinemagoer
@@ -11,6 +12,8 @@ from datetime import datetime
 from typing import Any
 from database.users_chats_db import db
 
+pyrogram.utils.MIN_CHAT_ID = -999999999999
+pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
