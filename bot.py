@@ -49,7 +49,7 @@ pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
 async def Jisshu_start():
     print('\n')
-    print('Credit - Telegram @JISSHU_BOTS')
+    print('Instalizing In @SMD_BOTz')
     bot_info = await JisshuBot.get_me()
     JisshuBot.username = bot_info.username
     await initialize_clients()
@@ -63,7 +63,7 @@ async def Jisshu_start():
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
             sys.modules["plugins." + plugin_name] = load
-            print("JisshuBot Imported => " + plugin_name)
+            print("@SMD_BOTz Imported => " + plugin_name)
     if ON_HEROKU:
         asyncio.create_task(ping_server())
     b_users, b_chats = await db.get_banned()
