@@ -35,11 +35,11 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002510687141'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002510687141'))
 
 # MongoDB 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Demo23:Demo23@cluster0.fjar36c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Demo23:Demo23@cluster0.4lbngfz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 
 # Files index database url
-FILES_DATABASE = environ.get('FILES_DATABASE', 'mongodb+srv://ssmemes163:mwWPwSoo73h8XRoo@cluster0.uc5ph6w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+FILES_DATABASE = environ.get('FILES_DATABASE', DATABASE_URI)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Files')
 
 # Other Channel's
