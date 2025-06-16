@@ -33,7 +33,7 @@ class script(object):
     
 
     ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Bhumihar filter bot
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Thebhumihar'>Jisshu Bots &lt;/&gt;</a>
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Thebhumihar'>Bhumihar Bots &lt;/&gt;</a>
 ‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
 ‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
@@ -122,7 +122,8 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}</b>"""
+    FILE_CAPTION =  """<b><a href="https://t.me/+hyF-AuQ68Xo4ZGI1">{file_name}</a></b>\n<b>Uploaded By: <a herf=`https://t.me/Thebhumihar`>[𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍]</a></b>"""
+
     
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
