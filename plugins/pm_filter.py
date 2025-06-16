@@ -80,7 +80,7 @@ async def group_search(client, message):
             if await is_check_admin(client, message.chat.id, message.from_user.id):
                 return
             await message.delete()
-            return await message.reply("<b>sᴇɴᴅɪɴɢ ʟɪɴᴋ ɪsɴ'ᴛ ᴀʟʟᴏᴡᴇᴅ ʜᴇʀᴇ ❌🤞🏻</b>")
+            return await message.reply("<b>sᴇɴᴅɪɴɢ ʟɪɴᴋ ɪsɴ'ᴛ ᴀʟʟᴏᴡᴇᴅ ʜᴇʀᴇ ❌</b>")
 
         elif '@admin' in message.text.lower() or '@admins' in message.text.lower():
             if await is_check_admin(client, message.chat.id, message.from_user.id):
