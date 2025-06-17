@@ -74,7 +74,7 @@ class script(object):
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v-3.1.2 [ Sᴛᴀʙʟᴇ ]</code>
 
-If there is an error, ask in the support group https://t.me/Moviekeeda_supportgroup</b>"""
+If there is an error, ask in the support group @MovieKaKeeda_SupportGroup</b>"""
         
     
     STATUS_TXT = """<b><u>♻️ ʙᴏᴛ ᴅᴀᴛᴀʙᴀsᴇ </u>
@@ -122,7 +122,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION =  """<b><a href="https://t.me/+hyF-AuQ68Xo4ZGI1">{file_name}</a></b>\n<b>Uploaded By: <a herf=`https://t.me/Thebhumihar`>[𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍]</a></b>"""
+    FILE_CAPTION =  """<b><a href="https://t.me/+hyF-AuQ68Xo4ZGI1">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a herf=``>[𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍]</a></b>"""
 
     
 
@@ -302,7 +302,7 @@ User - {}"""
  ❏ 𝟷𝟿𝟿₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹𝟼𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-🆔 ᴜᴘɪ ɪᴅ ➩ <code>jishan@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+🆔 ᴜᴘɪ ɪᴅ ➩ <code>@Thebhumihar</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -424,7 +424,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
     SOURCE_TXT = """<b>
 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/Thebhumihar">&lt;Click Here&gt;</a></blockquote>
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @jisshu_bots
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Thebhumihar
 </b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
