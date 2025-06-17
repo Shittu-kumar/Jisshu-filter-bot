@@ -979,11 +979,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("❤️ A Big Thank To All Contributors For Making This Bot Awesome!🎁🎪", show_alert=True)
+        await query.answer("❤️ A Big Thank To All Contributors For Making This Bot Awesome!🎁🎪\n\n 𝐌𝐀𝐃𝐄 𝐁𝐘 - 𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍", show_alert=True)
  
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/Jisshubot/Jisshu-filter-bot')
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://telegram.me/Thebhumihar')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
